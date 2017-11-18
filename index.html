@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Mad Libs 2</title>
+    <style>
+      h1 {
+        width: 800px;
+      }
+    </style>
+    <script>
+      function Story(){
+         document.getElementById("Story").style.display="block";
+         alert('Your security detected a virus!');
+         document.getElementById("date1").innerHTML
+      }
+    </script>
+  </head>
+  <body>
+    <h1>
+      Mad Libs
+    </h1>
+  <h2>
+  Date 
+  </h2>
+  <input id="Date0"/>
+  <h2>
+    Name
+  </h2>
+  <input id="Name0"/>
+  <h2>
+    Adjective
+  </h2>
+  <input id="Adjective0">
+  <h2>
+    Noun
+  </h2>
+  <input id="Noun0">
+  <h2>
+    Signed
+  </h2>
+  <input id="Signed0">
+  <br/>
+  <br/>
+  <button onclick="Story()">
+   Play!
+  </button>
+
+<div style="display: none" id="Story">
+  <h1>
+  Some guy named NAME ate the ADJECTIVE NOUN on <span id="date1">DATE</span> and it was gross. Signed SIGNED.
+  </h1>
+</div>
+  </body>
+</html>
