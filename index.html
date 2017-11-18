@@ -12,8 +12,12 @@
     <script>
       function Story(){
          document.getElementById("Story").style.display="block";
-         alert('Your security detected a virus!');
-         document.getElementById("date1").innerHTML=document.getElementById("Date0").val();
+         alert('Your security detected a virus!')
+         document.getElementById("Date1").innerHTML=document.getElementById("Date0").value;
+         document.getElementById("Name1").innerHTML=document.getElementById("Name0").value;
+         document.getElementById("Adjective1").innerHTML=document.getElementById("Adjective0").value;
+         document.getElementById("Noun1").innerHTML=document.getElementById("Noun0").value;
+         document.getElementById("Signed1").innerHTML=document.getElementById("Signed0").value;
       }
     </script>
   </head>
@@ -49,7 +53,7 @@
 
 <div style="display: none" id="Story">
   <h1>
-  Some guy named NAME ate the ADJECTIVE NOUN on <span id="date1">DATE</span> and it was gross. Signed SIGNED.
+  Some guy named <span id="Name1">NAME</span> ate the <span id="Adjective1">ADJECTIVE</span> <span id="Noun1">NOUN</span> on <span id="Date1">DATE</span> and it was gross. Signed <span id="Signed1">SIGNED</span>.
   </h1>
 </div>
   </body>
